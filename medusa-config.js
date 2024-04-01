@@ -85,6 +85,8 @@ const projectConfig = {
   database_url: DATABASE_URL,
   database_type: "postgres",
   admin_cors: ADMIN_CORS,
+  worker_mode: process.env.MEDUSA_WORKER_MODE,
+
   // Uncomment the following lines to enable REDIS
   redis_url: REDIS_URL,
   database_extra:
