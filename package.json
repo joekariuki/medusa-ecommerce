@@ -4,10 +4,6 @@
   "description": "A starter for Medusa projects.",
   "author": "Medusa (https://medusajs.com)",
   "license": "MIT",
-  "engines": {
-    "node": "20.x",
-    "npm": "10.x"
-  },
   "keywords": [
     "sqlite",
     "postgres",
